@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sama Al Khaleej - Premium construction, maintenance, and finishing services in Saudi Arabia.">
+  <title>Sama Al Khaleej | Building the Future</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ksp.css">
+</head>
+<body>
+  
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="ksp-header">
+    <div class="ksp-nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" class="brand-logo">
+        <span>Sama Al Khaleej</span>
+      </div>
+      <div class="ksp-right-nav">
+        <button id="lang-toggle" class="lang-toggle ksp-lang">عربي</button>
+        <button class="ksp-hamburger"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- KSP Overlay Menu -->
+  <div class="ksp-overlay-menu">
+    <button class="ksp-menu-close"><i class="fa-solid fa-xmark"></i></button>
+    <nav class="ksp-menu-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About Us</a>
+      <a href="iso-certifications.html" data-i18n="nav_iso">ISO Certifications</a>
+      <a href="services.html" data-i18n="nav_services">Services</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Section 1: Hero (100vh) -->
+  <section class="ksp-section ksp-hero">
+    <div class="ksp-hero-bg" style="background-image: url('images/agriculture_featured_enhanced.png');"></div>
+    <div class="ksp-hero-content animate-on-scroll">
+      <h1 data-i18n="hero_title">Building the Future with Excellence</h1>
+      <p data-i18n="hero_desc">Sama Al Khaleej is your trusted partner for premium construction, maintenance, and finishing services in Saudi Arabia.</p>
+    </div>
+    <div class="ksp-hero-scroll">
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Section 2: Why Choose Us (Split Content) -->
+  <section class="ksp-section ksp-split">
+    <div class="ksp-split-img" style="background-image: url('images/agriculture_featured_enhanced.png');"></div>
+    <div class="ksp-split-text-wrap">
+      <div class="ksp-split-content animate-on-scroll">
+        <h2 data-i18n="why_title">Why Choose Sama Al Khaleej?</h2>
+        <ul class="feature-list ksp-list">
+          <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="why_1">Years of Proven Experience</span></li>
+          <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="why_2">Uncompromising Quality Standards</span></li>
+          <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="why_3">Fast and Reliable Delivery</span></li>
+          <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="why_4">Highly Trusted Professional Team</span></li>
+        </ul>
+        <a href="about.html" class="btn btn-primary" data-i18n="why_read_more">Read More About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2.5: ISO Certifications Highlights -->
+  <section class="ksp-section ksp-split" style="flex-direction: row-reverse;">
+    <div class="ksp-split-img" style="background-image: url('images/Gemini_Generated_Image_svvsm6svvsm6svvs.png');"></div>
+    <div class="ksp-split-text-wrap" style="background-color: var(--primary-color);">
+      <div class="ksp-split-content animate-on-scroll">
+        <h2 data-i18n="idx_iso_title" style="color: #fff;">ISO Certifications</h2>
+        <p data-i18n="idx_iso_desc" style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 30px; color: rgba(255,255,255,0.9);">We are committed to international quality standards and certified to deliver excellence across all our services.</p>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+          <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); text-align: center; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.1)';" onmouseout="this.style.background='rgba(255,255,255,0.05)';">
+            <h4 style="color: #fff; font-size: 1rem; margin-bottom: 2px;">ISO 9001</h4>
+            <p style="color: #ef6424; font-size: 0.8rem; font-weight: 600;">Quality Management</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); text-align: center; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.1)';" onmouseout="this.style.background='rgba(255,255,255,0.05)';">
+            <h4 style="color: #fff; font-size: 1rem; margin-bottom: 2px;">ISO 14001</h4>
+            <p style="color: #ef6424; font-size: 0.8rem; font-weight: 600;">Environmental</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); text-align: center; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.1)';" onmouseout="this.style.background='rgba(255,255,255,0.05)';">
+            <h4 style="color: #fff; font-size: 1rem; margin-bottom: 2px;">ISO 45001</h4>
+            <p style="color: #ef6424; font-size: 0.8rem; font-weight: 600;">Occupational Health</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); text-align: center; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.1)';" onmouseout="this.style.background='rgba(255,255,255,0.05)';">
+            <h4 style="color: #fff; font-size: 1rem; margin-bottom: 2px;">ISO 27001</h4>
+            <p style="color: #ef6424; font-size: 0.8rem; font-weight: 600;">Information Security</p>
+          </div>
+        </div>
+        
+        <a href="iso-certifications.html" class="btn btn-primary" data-i18n="idx_iso_btn" style="margin-top: 30px;">View Full Certificates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Core Services Tiles (Edge to Edge) -->
+  <section class="ksp-section ksp-tiles">
+    <a href="general-construction.html" class="ksp-tile">
+      <div class="ksp-tile-bg" style="background-image: url('images/Gemini_Generated_Image_joq02jjoq02jjoq0.png');"></div>
+      <div class="ksp-tile-overlay"></div>
+      <div class="ksp-tile-content">
+        <div class="service-icon"><i class="fa-solid fa-city"></i></div>
+        <h3 data-i18n="srv_const_title">General Construction</h3>
+        <p data-i18n="srv_const_desc">Building malls, towers, commercial and residential complexes according to the highest quality standards.</p>
+      </div>
+    </a>
+    <a href="facility-management.html" class="ksp-tile">
+      <div class="ksp-tile-bg" style="background-image: url('images/service-fm.png');"></div>
+      <div class="ksp-tile-overlay"></div>
+      <div class="ksp-tile-content">
+        <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+        <h3 data-i18n="srv_maint_title">Facility Management</h3>
+        <p data-i18n="srv_maint_desc">Professional management and maintenance of buildings and facilities with guaranteed quality.</p>
+      </div>
+    </a>
+    <a href="#" class="ksp-tile">
+      <div class="ksp-tile-bg" style="background-image: url('images/service-clean.png');"></div>
+      <div class="ksp-tile-overlay"></div>
+      <div class="ksp-tile-content">
+        <div class="service-icon"><i class="fa-solid fa-broom"></i></div>
+        <h3 data-i18n="srv_clean_title">Cleaning Services</h3>
+        <p data-i18n="srv_clean_desc">Comprehensive cleaning, polishing, and sterilization for residential and commercial buildings.</p>
+      </div>
+    </a>
+    <a href="stadium-maintenance.html" class="ksp-tile">
+      <div class="ksp-tile-bg" style="background-image: url('images/stadium-maintenance.png');"></div>
+      <div class="ksp-tile-overlay"></div>
+      <div class="ksp-tile-content">
+        <div class="service-icon"><i class="fa-solid fa-futbol"></i></div>
+        <h3 data-i18n="srv_stadium_title">Stadium Maintenance</h3>
+        <p data-i18n="srv_stadium_desc">World-class turf management, lighting, and infrastructural upkeep for premium sports venues.</p>
+      </div>
+    </a>
+    <a href="agriculture.html" class="ksp-tile">
+      <div class="ksp-tile-bg" style="background-image: url('images/agriculture_featured_enhanced.png');"></div>
+      <div class="ksp-tile-overlay"></div>
+      <div class="ksp-tile-content">
+        <div class="service-icon"><i class="fa-solid fa-seedling"></i></div>
+        <h3 data-i18n="srv_agri_title">Agriculture & Landscaping</h3>
+        <p data-i18n="srv_agri_desc">Creating and maintaining gardens, parks, supplying trees, and installing irrigation networks.</p>
+      </div>
+    </a>
+  </section>
+
+  <!-- Section 4: Featured Immersive Slider/Card (100vh) -->
+  <section class="ksp-section ksp-feature">
+    <div class="ksp-feature-bg" style="background-image: url('images/project-1.jpg');"></div>
+    <div class="ksp-feature-overlay"></div>
+    <div class="ksp-feature-card animate-on-scroll">
+      <h2 data-i18n="proj_title">Featured Projects</h2>
+      <h3 data-i18n="proj_1">Luxury Residential Tower</h3>
+      <p style="color: #666; margin-bottom: 20px;">Riyadh, Saudi Arabia</p>
+      <a href="projects.html" class="btn btn-primary" data-i18n="proj_view_all" style="margin-top: 10px;">View All Projects</a>
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col animate-on-scroll">
+          <div class="logo" style="color: #fff; margin-bottom: 20px;">
+            <img src="images/logo.png" alt="Logo" class="brand-logo"> Sama Al Khaleej
+          </div>
+          <p data-i18n="footer_desc">Empowering visions through world-class construction and maintenance services.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col animate-on-scroll">
+          <h4 data-i18n="footer_quick">Quick Links</h4>
+          <a href="index.html" data-i18n="nav_home">Home</a>
+          <a href="about.html" data-i18n="nav_about">About Us</a>
+          <a href="services.html" data-i18n="nav_services">Services</a>
+          <a href="projects.html" data-i18n="nav_projects">Projects</a>
+          <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        </div>
+        <div class="footer-col animate-on-scroll">
+          <h4 data-i18n="footer_contact">Contact Info</h4>
+          <p><i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> <span data-i18n="office_address">Riyadh, Saudi Arabia</span></p>
+          <p><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> info@saggroupksa.com</p>
+          <p><i class="fa-solid fa-phone" style="margin-right: 8px;"></i> +966 11 488 3538</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer_rights">&copy; 2026 Sama Al Khaleej. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/966114883538" target="_blank" class="whatsapp-float">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>

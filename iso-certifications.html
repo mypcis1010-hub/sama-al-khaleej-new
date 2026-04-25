@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ISO Certifications - Sama Al Khaleej">
+  <title>ISO Certifications | Sama Al Khaleej</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ksp.css">
+</head>
+<body>
+  
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <header class="ksp-header">
+    <div class="ksp-nav-container">
+      <div class="logo">
+        <a href="index.html" style="text-decoration:none;"><img src="images/logo.png" alt="Logo" class="brand-logo"></a>
+        <a href="index.html" style="color:#fff; text-decoration:none;"><span>Sama Al Khaleej</span></a>
+      </div>
+      <div class="ksp-right-nav">
+        <button id="lang-toggle" class="lang-toggle ksp-lang">عربي</button>
+        <button class="ksp-hamburger"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- KSP Overlay Menu -->
+  <div class="ksp-overlay-menu">
+    <button class="ksp-menu-close"><i class="fa-solid fa-xmark"></i></button>
+    <nav class="ksp-menu-links">
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="about.html" data-i18n="nav_about">About Us</a>
+      <a href="iso-certifications.html" class="active" data-i18n="nav_iso">ISO Certifications</a>
+      <a href="services.html" data-i18n="nav_services">Services</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Section 1: Hero (100vh) -->
+  <section class="ksp-section ksp-hero">
+    <div class="ksp-hero-bg" style="background-image: url('images/iso-certifications.png');"></div>
+    <div class="ksp-hero-content animate-on-scroll">
+      <h1 data-i18n="iso_hero_title">ISO Certifications</h1>
+      <p data-i18n="iso_hero_desc">A testament to our unwavering commitment to global quality, safety, and operational excellence.</p>
+    </div>
+    <div class="ksp-hero-scroll">
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Section 2: Split Overview -->
+  <section class="ksp-section ksp-split">
+    <div class="ksp-split-img" style="background-image: url('images/iso-certifications.png'); filter: grayscale(100%) brightness(0.6);"></div>
+    <div class="ksp-split-text-wrap" style="background-color: var(--primary-color);">
+      <div class="ksp-split-content animate-on-scroll">
+        <h2 data-i18n="iso_sec1_title">Global Standards Achieved</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 20px; line-height: 1.6; color: rgba(255,255,255,0.9);" data-i18n="iso_sec1_p1">Sama Al Khaleej proudly operates under stringent international ISO protocols, ensuring every project phase is governed by world-class safety, environmental, and quality management systems.</p>
+        <ul class="feature-list ksp-list" style="margin-top: 30px;">
+          <li><i class="fa-solid fa-check-circle" style="color:#ef6424;"></i> <span style="font-size:1.1rem;" data-i18n="iso_9001">ISO 9001 (Quality Management)</span></li>
+          <li><i class="fa-solid fa-check-circle" style="color:#ef6424;"></i> <span style="font-size:1.1rem;" data-i18n="iso_14001">ISO 14001 (Environmental)</span></li>
+          <li><i class="fa-solid fa-check-circle" style="color:#ef6424;"></i> <span style="font-size:1.1rem;" data-i18n="iso_45001">ISO 45001 (Occupational Health)</span></li>
+          <li><i class="fa-solid fa-check-circle" style="color:#ef6424;"></i> <span style="font-size:1.1rem;" data-i18n="iso_27001">ISO/IEC 27001 (Information Security)</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Official Certificate Document Gallery -->
+  <section class="ksp-section ksp-split" style="height: auto; min-height: unset;">
+    <div class="ksp-split-text-wrap" style="width: 100vw; height: auto; min-height: auto; padding: 60px 10%; background-color: #f4f6f8; text-align: center;">
+      <h2 style="font-size: 3rem; color: var(--primary-color); margin:0;" data-i18n="iso_certificates_title">Our Certificates Gallery</h2>
+      <p style="color: #666; margin-top: 20px; font-size: 1.2rem;" data-i18n="iso_certificates_desc">Authentic documentation from ARS Assessment Private Limited verifying our compliance with international standards.</p>
+    </div>
+  </section>
+
+  <section class="ksp-section" style="height: auto; min-height: unset; padding: 60px 5%; background-color: #f4f6f8;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; justify-items: center; max-width: 1400px; margin: 0 auto;">
+      
+      <!-- Certificate 1 -->
+      <div class="animate-on-scroll" style="background: #fff; padding: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); border-radius: 8px; text-align: center; transition: transform 0.3s;">
+        <img src="images/iso-9001.jpg" alt="ISO 9001:2015 Certificate" style="width: 100%; height: auto; border: 1px solid #eee; display: block; margin-bottom: 20px;">
+        <h4 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 5px;">ISO 9001:2015</h4>
+        <p style="color: #ef6424; font-size: 0.9rem; font-weight: 600;">Quality Management System</p>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="animate-on-scroll" style="background: #fff; padding: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); border-radius: 8px; text-align: center; transition: transform 0.3s; transition-delay: 0.1s;">
+        <img src="images/iso-14001.jpg" alt="ISO 14001:2015 Certificate" style="width: 100%; height: auto; border: 1px solid #eee; display: block; margin-bottom: 20px;">
+        <h4 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 5px;">ISO 14001:2015</h4>
+        <p style="color: #ef6424; font-size: 0.9rem; font-weight: 600;">Environmental Management System</p>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="animate-on-scroll" style="background: #fff; padding: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); border-radius: 8px; text-align: center; transition: transform 0.3s; transition-delay: 0.2s;">
+        <img src="images/iso-45001.jpg" alt="ISO 45001:2018 Certificate" style="width: 100%; height: auto; border: 1px solid #eee; display: block; margin-bottom: 20px;">
+        <h4 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 5px;">ISO 45001:2018</h4>
+        <p style="color: #ef6424; font-size: 0.9rem; font-weight: 600;">Occupational Health and Safety</p>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="animate-on-scroll" style="background: #fff; padding: 15px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); border-radius: 8px; text-align: center; transition: transform 0.3s; transition-delay: 0.3s;">
+        <img src="images/iso-27001.jpg" alt="ISO/IEC 27001:2022 Certificate" style="width: 100%; height: auto; border: 1px solid #eee; display: block; margin-bottom: 20px;">
+        <h4 style="color: var(--primary-color); font-size: 1.2rem; margin-bottom: 5px;">ISO/IEC 27001:2022</h4>
+        <p style="color: #ef6424; font-size: 0.9rem; font-weight: 600;">Information Security Management</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col animate-on-scroll">
+          <div class="logo" style="color: #fff; margin-bottom: 20px;">
+            <img src="images/logo.png" alt="Logo" class="brand-logo"> Sama Al Khaleej
+          </div>
+          <p data-i18n="footer_desc">Empowering visions through world-class construction and maintenance services.</p>
+        </div>
+        <div class="footer-col animate-on-scroll">
+          <h4 data-i18n="footer_quick">Quick Links</h4>
+          <a href="index.html" data-i18n="nav_home">Home</a>
+          <a href="about.html" data-i18n="nav_about">About Us</a>
+          <a href="services.html" data-i18n="nav_services">Services</a>
+          <a href="projects.html" data-i18n="nav_projects">Projects</a>
+          <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        </div>
+        <div class="footer-col animate-on-scroll">
+          <h4 data-i18n="footer_contact">Contact Info</h4>
+          <p><i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> <span data-i18n="office_address">Riyadh, Saudi Arabia</span></p>
+          <p><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> info@saggroupksa.com</p>
+          <p><i class="fa-solid fa-phone" style="margin-right: 8px;"></i> +966 11 488 3538</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer_rights">&copy; 2026 Sama Al Khaleej. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/966114883538" target="_blank" class="whatsapp-float">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
