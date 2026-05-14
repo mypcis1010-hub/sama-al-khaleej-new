@@ -103,12 +103,14 @@ body {
 /* SECTION 3: TILES */
 .ksp-tiles {
   display: flex;
+  flex-wrap: wrap;
 }
 .ksp-tile {
-  flex: 1; height: 100vh;
+  width: 33.333%; height: 60vh;
   position: relative; overflow: hidden;
   display: flex; flex-direction: column; justify-content: flex-end;
   border-right: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   text-decoration: none; color: #fff;
 }
 [dir="rtl"] .ksp-tile {
@@ -251,8 +253,8 @@ body {
   .ksp-split-text-wrap { width: 100vw !important; height: auto !important; min-height: unset !important; flex: none !important; padding: 50px 20px !important; position: relative !important; overflow: visible !important; display: block !important; }
   
   /* Tiles */
-  .ksp-tiles { display: flex !important; flex-direction: column !important; height: auto !important; }
-  .ksp-tile, .ksp-tile.ksp-tile-3 { flex: none !important; width: 100vw !important; height: 50vh !important; border-right: none !important; border-bottom: 2px solid rgba(255,255,255,0.1) !important; }
+  .ksp-tiles { display: flex !important; flex-wrap: wrap !important; flex-direction: row !important; height: auto !important; }
+  .ksp-tile, .ksp-tile.ksp-tile-3 { flex: none !important; width: 50% !important; height: 50vh !important; border-right: none !important; border-bottom: 2px solid rgba(255,255,255,0.1) !important; }
   
   /* Feature/ZigZag Sections */
   .ksp-feature { display: flex !important; flex-direction: column !important; height: auto !important; min-height: unset !important; background-color: var(--primary-color) !important; overflow: visible !important; }
@@ -274,7 +276,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .ksp-tile { height: 60vh !important; }
+  .ksp-tile, .ksp-tile.ksp-tile-3 { width: 100% !important; height: 60vh !important; }
 }
 
 /* SECTION: GALLERY */

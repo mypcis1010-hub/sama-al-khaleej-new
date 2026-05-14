@@ -44,6 +44,15 @@ const translations = {
     proj_title: "Featured Projects",
     proj_view_all: "View All Projects",
     
+    // Qualified Companies
+    qual_title: "Qualified Companies",
+    qual_desc: "Authorized and certified by major Saudi government and private entities.",
+    qual_1: "Qualified with Saudi Housing Company",
+    qual_2: "Qualified with Saudi Aramco",
+    qual_3: "Qualified with MODON (Industrial Cities)",
+    qual_4: "Qualified with Misk Foundation",
+    qual_5: "And other approved government entities",
+    
     // About Page
     about_title: "About Sama Al Khaleej",
     about_story_title: "Our Story",
@@ -279,6 +288,15 @@ const translations = {
     
     proj_title: "مشاريع مميزة",
     proj_view_all: "عرض جميع المشاريع",
+
+    // Qualified Companies
+    qual_title: "الشركات المؤهلة",
+    qual_desc: "مؤهلون ومعتمدون من قبل كبرى الجهات الحكومية والخاصة في المملكة العربية السعودية.",
+    qual_1: "مؤهلين لدي الشركة السعودية للإسكان",
+    qual_2: "مؤهلين لدي شركة أرامكو السعودية",
+    qual_3: "مؤهلين لدي هيئة المدن الصناعية ومناطق التقنية",
+    qual_4: "مؤهلين لدي شركة مسك",
+    qual_5: "وغيرها من الجهات الحكومية المعتمدة",
     
     // About Page
     about_title: "عن سما الخليج",
